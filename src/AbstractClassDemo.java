@@ -11,5 +11,6 @@ public class AbstractClassDemo {
 	public static void main(String[] args) {
 		Mammal m = new Dog("개" , 20 );
 		m.saySomething();
+		System.out.println(m.toString());
 	}
 }

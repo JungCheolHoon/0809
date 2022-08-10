@@ -13,14 +13,14 @@ public class AbstractClassDemo1 {
 //		Human jimin = new Human("010-1234-5678" , "부산시 해운대구 센텀아파트");
 //		System.out.println(jimin);
 //		String str = Human.getInstance();
+//		System.out.println(str);
 //		Calendar cal = new GregorianCalendar();			//자식클래스를 이용하는 방법
 		Calendar cal = Calendar.getInstance();				//캘린더클래스의 static으로 선언된 인스턴스 메소드를 이용하는 방법
 		System.out.println("오늘은 " + cal.get(Calendar.YEAR) + "년 " + (cal.get(Calendar.MONTH) + 1) + "월 "
 				+ cal.get(Calendar.DATE) + "일입니다.");
-		
 	}
 
-//	abstract class Human {
+//	abstract static class Human {
 //		private String tel;
 //		private String address;
 //		private static String str = "Hello World";
